@@ -4,7 +4,7 @@ public class Pos_Neg_Sum {
         int postivesum=0;
         int negativesum=0;
         for (int i = 0; i < arr.length; i++) {
-            if(i>0){
+            if(arr[i]>0){
                 postivesum +=arr[i];
             }else {
                 negativesum +=arr[i];
@@ -13,4 +13,5 @@ public class Pos_Neg_Sum {
         System.out.println(postivesum);
         System.out.println(negativesum);
     }
+
 }
